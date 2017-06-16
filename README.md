@@ -7,14 +7,14 @@ Each meditation session is based around a lesson. A lesson consists of a txt fil
 ## Training
 To use the Bodhivista, he must be first initialised by creating a class, e.g.
  ```
-Bodhivista = Guru()
+Bodhisattva = Guru()
 ```
 One can then select a lesson with:
 ```
-Bodhivista.choose_teaching()
+Bodhisattva.choose_teaching()
 ```
 And finally, a lesson can be begun with:
 ```
-Bodhivista.teach()
+Bodhisattva.teach()
 ```
 The lesson will then run until completion.
