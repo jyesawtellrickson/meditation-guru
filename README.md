@@ -18,3 +18,14 @@ And finally, a lesson can be begun with:
 Bodhisattva.teach()
 ```
 The lesson will then run until completion.
+
+## Contributing
+There are a bunch of things to do:
+- 
+
+Please follow standard procedure for creating pull requests.
+
+
+## Acknowledgments
+The lessons have been pulled together from many sources and these are stated below:
+- UCLA Mindful Meditations: http://marc.ucla.edu/mindful-meditations
