@@ -87,12 +87,13 @@ class Guru:
         :return: (list) of tuples for lesson
         """
         file = open('lessons/'+filename, 'r')
+        meditation = [self.process_line(l) for l in file.readlines() if l != '\n' and l[0] != '#']
+        """
         meditation = []
         for l in file.readlines():
-            if l[0] == '#':
-                a = 1
-            elif l != '\n':
+            if l != '\n' and l[0] != '#':
                 meditation += [self.process_line(l)]
+        """
         file.close()
         return meditation
 
